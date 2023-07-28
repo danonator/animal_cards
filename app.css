@@ -64,7 +64,6 @@ img {
     /* filter: drop-shadow(0 0 0.75rem black); */
     box-shadow: 2px 2px 5px 3px #00000049;
     transform: scale(110%, 110%);
-    /* z-index: 6; */
 }
 
 h1, h2, h3, h4, p, a{
@@ -84,14 +83,6 @@ a:hover {
     cursor: pointer;
 }
 
-.holder{
-    margin: 0 auto;
-    /* width: 50%; */
-    /* text-align: center; */
-}
-
-
-
 footer {
     background-color: skyblue;
     padding-top: 5%;
@@ -110,5 +101,10 @@ footer {
     height: 200px;
     object-fit: cover;
     object-position: left center;
+}
+
+.contain{
+    display: flex;
+    justify-content: center;
 }
 
